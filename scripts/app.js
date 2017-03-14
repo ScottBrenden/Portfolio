@@ -1,6 +1,9 @@
 'use strict';
 
-function Project(name, link){};
+function Project(name, link){
+  this.name = name,
+  this.ref = link;
+};
 
 var getfit = new Project('Get Fit', 'https://aesthetiques.github.io/swole_devs/');
 var busMall = new Project('Bus Mall', 'https://scottbrenden.github.io/bus-mall/');
