@@ -1,4 +1,22 @@
 body {
-  background: #3a8;
-  
+  background: #fff;
+}
+
+header {
+  height: 200px;
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  height: 40px;
+  background-color: #250;
+  color: #fff;
+}
+
+#nav-item {
+  height: 40px;
+  background-color: rgba(0,0,0,0);
+  width: 33%;
+  text-align: center;
 }
