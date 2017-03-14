@@ -1,4 +1,50 @@
 body {
-  background: #3a8;
-  
+  background: #ddd;
+  padding: -25px, -10px;
 }
+
+header {
+  height: 250px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+}
+
+#prof-pic {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  margin: auto 20px;
+}
+
+
+
+nav {
+  height: 70px;
+  background-color: #250;
+  color: #fff;
+  width: 100%;
+  margin-top: 0;
+}
+
+.nav-item {
+  height: 70px;
+  background-color: rgba(0,0,0,0);
+  width: 33%;
+  text-align: center;
+  display: inline-block;
+  /*margin: 0, -0.33%;*/
+}
+
+.nav-item:hover {
+  background-color: #000;
+}
+
+/*#about {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#projects {
+  background-color: rgba(0, 0, 0, 0.5);
+}*/
