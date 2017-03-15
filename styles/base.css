@@ -41,10 +41,15 @@ nav {
   background-color: #000;
 }
 
-/*#about {
+.preview-img {
+  width: 10%;
+  height: auto;
+  background-color: #250;
+}
+/*#nav-about {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-#projects {
+#nav-projects {
   background-color: rgba(0, 0, 0, 0.5);
 }*/
