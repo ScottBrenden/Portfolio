@@ -23,3 +23,7 @@ Project.prototype.toHtml = function () {
 projectObjects.forEach(function(proj) {
   projects.push(new Project(proj));
 });
+
+projects.forEach(function(p){
+  $('#projects').append(p.toHtml());
+});
