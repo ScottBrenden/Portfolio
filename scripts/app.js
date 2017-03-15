@@ -14,14 +14,18 @@ var projectObjects = [getfit, busMall, salmonCookies];
 
 Project.prototype.toHtml = function () {
   var $newProject = $('article.project-template').clone();
-  $newProject.removeClass();
-
+  $newProject.removeClass('project-template');
+  console.log(this);
+  console.log($newProject.name);
   $newProject.find('a').attr('href', this.ref);
   $newProject.find('a').text(this.name);
+
+  // $newProject.append('<hr>');
+  return $newProject;
 };
 
 projectObjects.forEach(function(proj) {
-  projects.push(new Project(proj));
+  projects.push(proj);
 });
 
 projects.forEach(function(p){
