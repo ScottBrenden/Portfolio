@@ -11,14 +11,21 @@ header {
   margin: 0;
 }
 
-#prof-pic {
-  height: 100px;
-  width: 100px;
+.prof-pic {
+  height: 200px;
+  width: 200px;
   background-color: #bbb;
   margin: auto 20px;
+  background-image: url('http://i.imgur.com/i3soSiT.jpg');
+  background-size: cover;
+  background-position: center, right;
+  float: left;
+  border-radius: 50%;
 }
 
-
+h1 {
+  float: left;
+}
 
 nav {
   height: 70px;
@@ -29,11 +36,12 @@ nav {
 }
 
 .nav-item {
-  height: 70px;
+  height: 50px;
   background-color: rgba(0,0,0,0);
   width: 33%;
   text-align: center;
   display: inline-block;
+  padding-top: 20px;
   /*margin: 0, -0.33%;*/
 }
 
@@ -46,6 +54,7 @@ nav {
   height: auto;
   background-color: #250;
 }
+
 /*#nav-about {
   background-color: rgba(255, 255, 255, 0.5);
 }
