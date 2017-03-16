@@ -1,0 +1,16 @@
+'use strict';
+
+projectData = [
+  {
+    name: 'Get Fit',
+    ref: 'https://aesthetiques.github.io/swole_devs/'
+  },
+  {
+    name: 'Bus Mall',
+    ref: 'https://scottbrenden.github.io/bus-mall/'
+  },
+  {
+    name: 'Salmon Cookies',
+    ref: 'https://scottbrenden.github.io/Salmon-cookies/'
+  }
+];
