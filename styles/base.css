@@ -12,6 +12,11 @@ header {
   position: relative;
 }
 
+header img{
+  height: 200px;
+  float: right;
+}
+
 .prof-pic {
   height: 200px;
   width: 200px;
@@ -72,14 +77,23 @@ nav {
   margin-top: 0;
 }
 
+.icon-menu{
+  font-size: 3em;
+}
+
+nav ul{
+    display: none;
+    padding: 0;
+    list-style: none;
+    clear: none;
+}
+
+nav:hover ul {
+  display: block;
+}
+
 .nav-item {
-  height: 50px;
-  background-color: rgba(0,0,0,0);
-  width: 33%;
-  text-align: center;
-  display: inline-block;
-  padding-top: 20px;
-  /*margin: 0, -0.33%;*/
+  background-color: #250;
 }
 
 .nav-item:hover {
@@ -92,12 +106,26 @@ nav {
   background-color: #250;
 }
 
-@media only screen and (max-width: 840px) {
-  .nav-item{
+@media only screen and (min-width: 840px) {
+  .icon-menu{
     display: none;
   }
 
+  nav ul {
+    display: block;
+  }
+
+  .nav-item {
+    height: 50px;
+    background-color: rgba(0,0,0,0);
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+  }
+
 }
+
 /*#nav-about {
   background-color: rgba(255, 255, 255, 0.5);
 }
