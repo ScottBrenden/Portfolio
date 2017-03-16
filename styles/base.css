@@ -9,6 +9,7 @@ header {
   color: #fff;
   width: 100%;
   margin: 0;
+  position: relative;
 }
 
 .prof-pic {
@@ -25,6 +26,42 @@ header {
 
 h1 {
   float: left;
+}
+
+.media-link {
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 20px;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  float: left;
+
+}
+
+.media-link a{
+  text-decoration: none;
+  color: #fff;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+#linked {
+  background-color: #0077b5;
+}
+
+#git {
+  background-color: #333;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+#email {
+  background-color: #a00;
 }
 
 nav {
