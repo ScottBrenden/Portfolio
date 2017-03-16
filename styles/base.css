@@ -92,11 +92,11 @@ nav {
   background-color: #250;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 840px) {
   .nav-item{
     display: none;
   }
-  
+
 }
 /*#nav-about {
   background-color: rgba(255, 255, 255, 0.5);
