@@ -1,6 +1,6 @@
 'use strict';
 
-projectData = [
+var projectData = [
   {
     name: 'Get Fit',
     ref: 'https://aesthetiques.github.io/swole_devs/'

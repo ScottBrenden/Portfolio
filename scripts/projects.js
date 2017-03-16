@@ -13,10 +13,9 @@ function Project(projData){
 // var projectObjects = [getfit, busMall, salmonCookies];
 
 Project.prototype.toHtml = function () {
-  var $newProject = $('article.project-template').clone();
-  $newProject.removeClass('project-template');
-  console.log(this);
-  console.log($newProject.name);
+
+  var $newProject = $('article.project-template').clone().removeClass('project-template');
+
   $newProject.find('a').attr('href', this.ref);
   $newProject.find('a').text(this.name);
 
@@ -24,10 +23,11 @@ Project.prototype.toHtml = function () {
   return $newProject;
 };
 
-projectObjects.forEach(function(proj) {
+projectData.forEach(function(proj) {
   projects.push(new Project(proj));
 });
 
 projects.forEach(function(proj){
   $('#projects').append(proj.toHtml());
 });
+$('article.project-template').hide();
