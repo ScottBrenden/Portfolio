@@ -1,3 +1,8 @@
+header {
+  background-color: #000;
+  color: #fff;
+}
+
 #prof-name {
   font-size: 35px;
 }
@@ -39,4 +44,8 @@
 
 #email {
   background-color: #a00;
+}
+
+.icon-menu, #nav-logo{
+  font-size: 3em;
 }
