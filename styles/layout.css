@@ -1,0 +1,141 @@
+body {
+  background: #ddd;
+  padding: -25px, -10px;
+}
+
+header {
+  height: 250px;
+  width: 100%;
+  margin: 0;
+
+}
+
+#head-logo{
+  display: none;
+  height: 10em;
+  float: right;
+}
+
+.prof-pic {
+  margin: 3em 0 3em 3em;
+  height: 10em;
+  width: 10em;
+}
+
+.prof-pic, #prof-info, #prof-name {
+  float: left;
+  position: absolute;
+}
+
+#media-links {
+  margin: .5em 0 1em 0;
+}
+
+#prof-info {
+  width: 30em;
+}
+
+#prof-name {
+  margin: 1.5em 0 0 6.5em;
+}
+
+.media-link {
+  padding: .2em;
+  border-radius: 50%;
+  font-size: 20px;
+  height: 1.1em;
+  width: 1.1em;
+  text-align: center;
+  display: inline-block;
+  margin-left: .5em;
+  /*float: left;*/
+}
+
+.media-link a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0.02em;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+nav {
+  height: auto;
+  min-height: 3em;
+  background-color: #250;
+  color: #fff;
+  width: 100%;
+  margin-top: 0;
+}
+
+nav ul{
+    display: none;
+    padding: 0;
+    list-style: none;
+    clear: none;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+.nav-item {
+  padding: 1em;
+}
+
+.icon-menu {
+  display: inline-block;
+  /*float: left;*/
+}
+
+#nav-logo {
+  padding: .1em;
+  height: .8em;
+  display: inline;
+  float: right;
+}
+
+.preview-img {
+  width: 10%;
+  height: auto;
+  background-color: #250;
+}
+
+@media only screen and (min-width: 840px) {
+
+  #prof-info {
+    margin: 7.2em 0 0 14em;
+    width: 15em;
+  }
+
+  #prof-name {
+    margin: 0;
+  }
+
+  #head-logo{
+    display: inline-block;
+  }
+
+  .icon-menu, #nav-logo{
+    display: none;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  .nav-item {
+    height: 3.1em;
+    background-color: rgba(0,0,0,0);
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    padding: 1.5em 0;
+  }
+
+}
