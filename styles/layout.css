@@ -1,5 +1,4 @@
 body {
-  background: #ddd;
   padding: -25px, -10px;
 }
 
@@ -106,7 +105,7 @@ nav:hover ul {
 
   #prof-info {
     margin: 7.2em 0 0 14em;
-    width: 15em;
+    width: 20em;
   }
 
   #prof-name {
