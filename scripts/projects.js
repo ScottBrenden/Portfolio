@@ -6,21 +6,16 @@ function Project(projData){
   this.ref = projData.ref;
 };
 
-// var getfit = new Project('Get Fit', 'https://aesthetiques.github.io/swole_devs/');
-// var busMall = new Project('Bus Mall', 'https://scottbrenden.github.io/bus-mall/');
-// var salmonCookies = new Project('Salmon Cookies', 'https://scottbrenden.github.io/Salmon-cookies/');
-//
-// var projectObjects = [getfit, busMall, salmonCookies];
-
 Project.prototype.toHtml = function () {
+  var source = $('#project-template').text();
 
-  var $newProject = $('article.project-template').clone().removeClass('project-template');
+  var templateRender = Handlebars.compile(source);
+  // var $newProject = $('article.template').clone().removeClass('template');
+  //
+  // $newProject.find('a').attr('href', this.ref);
+  // $newProject.find('a').text(this.name);
 
-  $newProject.find('a').attr('href', this.ref);
-  $newProject.find('a').text(this.name);
-
-  // $newProject.append('<hr>');
-  return $newProject;
+  // return $newProject;
 };
 
 projectData.forEach(function(proj) {
@@ -30,4 +25,4 @@ projectData.forEach(function(proj) {
 projects.forEach(function(proj){
   $('#projects').append(proj.toHtml());
 });
-$('article.project-template').hide();
+$('article.template').hide();
