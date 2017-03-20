@@ -8,9 +8,7 @@ function Project(projData){
 
 Project.prototype.toHtml = function () {
   var source = $('#project-template').text();
-
   var templateRender = Handlebars.compile(source);
-  console.log(templateRender(this));
 
   return templateRender(this);
 };
