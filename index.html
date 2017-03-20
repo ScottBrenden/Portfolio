@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="vendor/styles/reset.css">
     <link rel="icon" type="image/x-icon" href="imgs/SBtreelogo.png">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Julius+Sans+One|Quicksand" rel="stylesheet">
+    <script id="project-template" type="text/x-handelbars-template">
+      <article class="template">
+        <a href="{{ref}}">
+          {{name}}
+          <div class="preview-img">
+
+          </div>
+        </a>
+      </article>
+    </script>
   </head>
   <body>
     <header>
@@ -56,14 +67,7 @@
       <p>I am Scott</p>
     </section>
     <section id="projects" class="page">
-      <article class="project-template">
-        <a href="">
-          Project name
-          <div class="preview-img">
 
-          </div>
-        </a>
-      </article>
     </section>
     <section id="work-hist" class="page">
       <p>Cascades</p>
@@ -74,6 +78,8 @@
     <footer>
 
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

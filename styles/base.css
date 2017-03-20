@@ -1,3 +1,7 @@
+body {
+  background: #ddd;
+}
+
 header {
   background-color: #000;
   color: #fff;
@@ -5,6 +9,7 @@ header {
 
 #prof-name {
   font-size: 35px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .prof-pic {
@@ -18,6 +23,7 @@ header {
 
 .nav-item {
   background-color: #250;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .nav-item:hover {
@@ -48,4 +54,8 @@ header {
 
 .icon-menu, #nav-logo{
   font-size: 3em;
+}
+
+#about, #projects, #work-hist {
+  font-family: 'ABeeZee', sans-serif;
 }
