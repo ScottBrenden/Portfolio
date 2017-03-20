@@ -113,7 +113,9 @@ nav:hover ul {
   }
 
   #head-logo{
-    display: inline-block;
+    display: inline;
+    position: absolute;
+    margin: 3em 3em 1em 77%;
   }
 
   .icon-menu, #nav-logo{
