@@ -15,7 +15,7 @@ Project.prototype.toHtml = function () {
   // $newProject.find('a').attr('href', this.ref);
   // $newProject.find('a').text(this.name);
 
-  // return $newProject;
+  return templateRender(this);
 };
 
 projectData.forEach(function(proj) {
