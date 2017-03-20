@@ -1,3 +1,4 @@
+
 body {
   background: #ddd;
 }
@@ -24,8 +25,18 @@ header {
   background-position: center, right;
 }
 
-.nav-item {
+.media-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
   background-color: #250;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 18px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -33,10 +44,10 @@ header {
   background-color: #000;
 }
 
-.nav-item a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
+.nav-item:focus {
+  background-color: #fff;
+  color: #000;
+  outline: none;
 }
 
 #linked {

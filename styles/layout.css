@@ -51,8 +51,6 @@ header {
 }
 
 .media-link a{
-  text-decoration: none;
-  color: #fff;
   padding: 0.02em;
   border-radius: 50%;
   text-align: center;
@@ -60,19 +58,12 @@ header {
 }
 
 nav {
-  height: auto;
-  min-height: 3em;
-  background-color: #250;
-  color: #fff;
   width: 100%;
-  margin-top: 0;
 }
 
 nav ul{
     display: none;
-    padding: 0;
     list-style: none;
-    clear: none;
 }
 
 nav:hover ul {
@@ -80,7 +71,7 @@ nav:hover ul {
 }
 
 .nav-item {
-  padding: 1em;
+  padding: 1em 0;
 }
 
 .icon-menu {
@@ -101,7 +92,7 @@ nav:hover ul {
   background-color: #250;
 }
 
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 640px) {
 
   #prof-info {
     margin: 7.2em 0 0 14em;
@@ -122,18 +113,13 @@ nav:hover ul {
     display: none;
   }
 
-  nav {
-    height: 70px;
-  }
-
   nav ul {
     display: block;
   }
 
   .nav-item {
     height: 3em;
-    background-color: rgba(0,0,0,0);
-    width: 33%;
+    width: 33.3333%;
     text-align: center;
     display: inline-block;
     padding: 1.5em 0 0 0;
