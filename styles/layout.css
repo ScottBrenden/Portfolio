@@ -56,6 +56,7 @@
   text-align: center;
   display: inline-block;
   margin-left: .5em;
+
 }
 .prof-pic {
   margin: 3em 0 3em 3em;
@@ -64,13 +65,14 @@
 }
 .icon-menu, #nav-logo{
   font-size: 3em;
+
 }
 .prof-pic, #prof-info, #prof-name {
   float: left;
   position: absolute;
 }
 .nav-item {
-  padding: 1em;
+  padding: 1em 0;
 }
 
 .icon-menu {
@@ -100,7 +102,7 @@
   background-color: #000;
 }
 
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 640px) {
 
   #prof-info {
     margin: 7.2em 0 0 14em;
@@ -112,16 +114,18 @@
   }
 
   #head-logo{
-    display: inline-block;
+    display: inline;
+    position: absolute;
+    margin: 3em 3em 1em 77%;
   }
 
   .icon-menu, #nav-logo{
     display: none;
   }
+
   .nav-item {
     height: 3em;
-    background-color: rgba(0,0,0,0);
-    width: 33%;
+    width: 33.3333%;
     text-align: center;
     display: inline-block;
     padding: 1.5em 0 0 0;

@@ -1,3 +1,4 @@
+
 body {
   background: #ddd;
   padding: -25px, -10px;
@@ -5,11 +6,15 @@ body {
 
 header {
   background-color: #000;
+  background-image: url('../../imgs/headerbr.jpeg');
+  background-size: cover;
+  background-position: center right;
   color: #fff;
   height: 250px;
   width: 100%;
   margin: 0;
 }
+
 nav {
   height: auto;
   min-height: 3em;
@@ -35,4 +40,5 @@ nav:hover ul {
   nav ul {
     display: block;
   }
+
 }
