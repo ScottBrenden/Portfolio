@@ -102,6 +102,12 @@
   background-color: #000;
 }
 
+.nav-item:focus {
+  background-color: #fff;
+  color: #000;
+  outline: none;
+}
+
 @media only screen and (min-width: 640px) {
 
   #prof-info {
