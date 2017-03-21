@@ -1,6 +1,7 @@
 
 body {
   background: #ddd;
+  padding: -25px, -10px;
 }
 
 header {
@@ -9,67 +10,35 @@ header {
   background-size: cover;
   background-position: center right;
   color: #fff;
-}
-
-#prof-name {
-  font-size: 35px;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-.prof-pic {
-  border: .2em #000;
-  border-radius: 50%;
-  background-color: #bbb;
-  background-image: url('http://i.imgur.com/i3soSiT.jpg');
-  background-size: cover;
-  background-position: center, right;
-}
-
-.media-link a {
-  text-decoration: none;
-  color: #fff;
+  height: 250px;
+  width: 100%;
+  margin: 0;
 }
 
 nav {
+  height: auto;
+  min-height: 3em;
   background-color: #250;
-}
-
-.nav-item {
   color: #fff;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-}
+  width: 100%;
+  margin-top: 0;
 
-.nav-item:hover {
-  background-color: #000;
 }
-
-.nav-item:focus {
-  background-color: #fff;
-  color: #000;
-  outline: none;
+nav ul{
+    display: none;
+    padding: 0;
+    list-style: none;
+    clear: none;
 }
-
-#linked {
-  background-color: #0077b5;
+nav:hover ul {
+  display: block;
 }
+@media only screen and (min-width: 840px) {
+  nav{
+    height: 70px;
+  }
+  nav ul {
+    display: block;
+  }
 
-#git {
-  background-color: #333;
-}
-
-#facebook {
-  background-color: #3b5998;
-}
-
-#email {
-  background-color: #a00;
-}
-
-.icon-menu, #nav-logo{
-  font-size: 3em;
-}
-
-#about, #projects, #work-hist {
-  font-family: 'ABeeZee', sans-serif;
 }
