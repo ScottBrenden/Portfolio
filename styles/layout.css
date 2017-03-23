@@ -1,6 +1,8 @@
 #prof-name {
   font-size: 35px;
   font-family: 'Julius Sans One', sans-serif;
+  margin: 1.5em 0 0 5.5em;
+  width: 5em;
 }
 
 #linked {
@@ -43,10 +45,6 @@
   width: 30em;
 }
 
-#prof-name {
-  margin: 1.5em 0 0 6.5em;
-}
-
 .media-link {
   padding: .2em;
   border-radius: 50%;
@@ -59,7 +57,7 @@
 
 }
 .prof-pic {
-  margin: 3em 0 3em 3em;
+  margin: 3em 0 3em 1em;
   height: 10em;
   width: 10em;
 }
@@ -103,20 +101,25 @@
 }
 
 .nav-item:focus {
-  background-color: #fff;
+  background-color: #bbb;
   color: #000;
   outline: none;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 700px) {
 
   #prof-info {
     margin: 7.2em 0 0 14em;
     width: 20em;
   }
 
+  .prof-pic {
+    margin-left: 3em;
+  }
+
   #prof-name {
     margin: 0;
+    width: 10em;
   }
 
   #head-logo{

@@ -1,6 +1,6 @@
 
 body {
-  background: #ddd;
+  background: #bbb;
   padding: -25px, -10px;
 }
 
@@ -33,7 +33,7 @@ nav ul{
 nav:hover ul {
   display: block;
 }
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 700px) {
   nav{
     height: 70px;
   }
@@ -41,4 +41,7 @@ nav:hover ul {
     display: block;
   }
 
+}
+main {
+  padding: 1em;
 }
