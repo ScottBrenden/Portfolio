@@ -1,6 +1,6 @@
 'use strict';
 
-var navBar = {};
+const navBar = {};
 
 navBar.handleMainNav = function() {
   $('.navbar').on('click', '.nav-item', function(){
