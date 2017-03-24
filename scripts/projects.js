@@ -11,7 +11,7 @@ Project.all = [];
 Project.prototype.toHtml = function () {
   var source = $('#project-template').text();
   var templateRender = Handlebars.compile(source);
-  console.log(source);
+
   return templateRender(this);
 };
 
@@ -22,7 +22,6 @@ Project.loadAll = function(rawData) {
 };
 
 Project.fetchAll = function(){
-  console.log('fetchAll');
   if (localStorage.rawData) {
     Project.loadAll(JSON.parse(localStorage.rawData));
     projectView.initIndexPage();
@@ -34,11 +33,3 @@ Project.fetchAll = function(){
     })
   }
 }
-
-// projectData.forEach(function(proj) {
-//   projects.push(new Project(proj));
-// });
-
-// Project.forEach(function(proj){
-//   $('#projects').append(proj.toHtml());
-// });
