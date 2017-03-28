@@ -124,10 +124,16 @@
 
 #educ h4 {
   font-weight: bold;
+  font-size: 18px;
 }
 
-#bio {
+.school {
+  margin-top: 1em;
+}
 
+.school-info {
+  padding-left: 2em;
+  padding-top: 3px;
 }
 
 @media only screen and (min-width: 700px) {
