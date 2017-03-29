@@ -1,5 +1,4 @@
 'use strict';
-// var projects = [];
 
 function Project(projData){
   this.name = projData.name,
