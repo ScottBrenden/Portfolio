@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scott Brenden</title>
+    <link rel="stylesheet" href="vendor/icons.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/modules.css">
+    <link rel="stylesheet" href="vendor/styles/reset.css">
+    <link rel="icon" type="image/x-icon" href="imgs/SBtreelogo.png">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Julius+Sans+One|Quicksand" rel="stylesheet">
+    <script id="project-template" type="text/x-handelbars-template">
+      <article class="template">
+        <a href="{{ref}}">
+          {{name}}
+          <div class="preview-img"></div>
+        </a>
+      </article>
+    </script>
+  </head>
+  <body>
+    <header>
+        <div class="prof-pic">
+        </div>
+        <div id="prof-info">
+          <div id="media-links">
+            <div id="linked" class="media-link">
+              <a href="https://www.linkedin.com/in/scott-brenden-2a1b2297/" class="icon-linkedin2"></a>
+            </div>
+            <div id="facebook" class="media-link">
+              <a href="https://www.facebook.com/scott.brenden.1" class="icon-facebook"></a>
+            </div>
+            <div id="git" class="media-link">
+              <a href="https://github.com/ScottBrenden" class="icon-github"></a>
+            </div>
+            <div id="email" class="media-link">
+              <a href="#" class="icon-mail4"></a>
+            </div>
+          </div>
+          <h1 id="prof-name" >Scott Brenden</h1>
+        </div>
+        <img src="imgs/SBtreelogo.png" alt="" id="head-logo">
+    </header>
+    <nav class="navbar">
+      <div class="icon-menu"></div>
+      <ul class="nav-menu is-hide">
+        <li tabindex="1" id="nav-about" class="nav-item" data-content="about">
+            About
+        </li
+        ><li tabindex="2" id="nav-projects" class="nav-item" data-content="projects">
+            Projects
+        </li
+        ><li tabindex="3" id="nav-work-hist" class="nav-item" data-content="work-hist">
+            Work History
+        </li
+      ></ul>
+      <img src="/imgs/SBtreelogoblk.png" alt="" id="nav-logo">
+    </nav>
+    <main>
+      <section id="about" class="page">
+        <h3>Bio</h3>
+        <p>    </p>
+      </section>
+      <section id="projects" class="page">
+
+      </section>
+      <section id="work-hist" class="page">
+        <p>Cascades</p>
+        <p>Mini Mt</p>
+        <p>Ambrosia</p>
+        <p>Costco</p>
+      </section>
+  </main>
+    <footer>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="/scripts/navFunc.js"></script>
+    <script src="/scripts/animations.js"></script>
+    <script src="/scripts/projects.js"></script>
+    <script src="/scripts/projectView.js"></script>
+    <script> Project.fetchAll(); </script>
+  </body>
+</html>
