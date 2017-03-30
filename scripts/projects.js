@@ -9,8 +9,8 @@ function Project(projData){
 Project.all = [];
 
 Project.prototype.toHtml = function () {
-  var source = $('#project-template').text();
-  var templateRender = Handlebars.compile(source);
+  let source = $('#project-template').text();
+  let templateRender = Handlebars.compile(source);
 
   return templateRender(this);
 };
