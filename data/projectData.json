@@ -1,14 +1,17 @@
 [
   {
     "name": "Get Fit",
-    "ref": "https://aesthetiques.github.io/swole_devs/"
+    "ref": "https://aesthetiques.github.io/swole_devs/",
+    "date": "3/2017"
   },
   {
     "name": "Bus Mall",
-    "ref": "https://scottbrenden.github.io/bus-mall/"
+    "ref": "https://scottbrenden.github.io/bus-mall/",
+    "date": "2/2017"
   },
   {
     "name": "Salmon Cookies",
-    "ref": "https://scottbrenden.github.io/Salmon-cookies/"
+    "ref": "https://scottbrenden.github.io/Salmon-cookies/",
+    "date": "2/2017"
   }
 ]
