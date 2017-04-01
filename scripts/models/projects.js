@@ -26,8 +26,14 @@
     })
   };
 
-  Project.fetchAll = function(){
-    if (localStorage.rawData) {
+  Project.fetchAll = callback => {
+    // console.log($.get('/projects'));
+    // $.get('/projects').then(results => {
+    //   console.log(Project.loadAll(results));
+    //   Project.loadAll(results);
+    //   callback();
+    // })
+    if (localStorage) {
       Project.loadAll(JSON.parse(localStorage.rawData));
       projectView.initIndexPage();
     } else {

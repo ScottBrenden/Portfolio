@@ -7,4 +7,5 @@
     $('.page').hide();
     $('#about').fadeIn('fast');
   }
+  module.aboutCtrl = aboutCtrl;
 })(window);

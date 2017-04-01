@@ -8,4 +8,5 @@
     $('.page').hide();
     $('#projects').fadeIn('fast');
   }
+  module.projectCtrl = projectCtrl;
 })(window);

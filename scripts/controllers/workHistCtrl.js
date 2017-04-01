@@ -7,4 +7,5 @@
     $('.page').hide();
     $('#work-hist').fadeIn('fast');
   }
+  module.workHistCtrl = workHistCtrl;
 })(window);
