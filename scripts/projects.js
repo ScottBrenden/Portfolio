@@ -3,7 +3,9 @@
 (function(module){
   function Project(projData){
     this.name = projData.name,
-    this.ref = projData.ref;
+    this.ref = projData.ref,
+    this.dateMade = projData.dateMade,
+    this.disc = projData.disc;
   };
 
   Project.all = [];
@@ -11,7 +13,6 @@
   Project.prototype.toHtml = function () {
     let source = $('#project-template').text();
     let templateRender = Handlebars.compile(source);
-
     return templateRender(this);
   };
 
