@@ -16,6 +16,10 @@
     return templateRender(this);
   };
 
+  Project.numWordsDisc = () => {
+    return Project.all.map((project) => project.disc.split(' ').length).reduce((acc, val) => acc + val);
+  }
+
   Project.loadAll = function(rawData) {
     rawData.forEach(function(element){
       Project.all.push(new Project(element));
@@ -33,6 +37,7 @@
         projectView.initIndexPage();
       })
     }
+    console.log(Project.numWordsDisc());
   }
   module.Project = Project;
 })(window);
