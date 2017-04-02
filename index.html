@@ -52,15 +52,15 @@
     <nav class="navbar">
       <div class="icon-menu"></div>
       <ul class="nav-menu is-hide">
-        <li tabindex="1" id="nav-about" class="nav-item" data-content="about">
+        <a href="/"><li tabindex="1" id="nav-about" class="nav-item" data-content="about">
             About
-        </li
-        ><li tabindex="2" id="nav-projects" class="nav-item" data-content="projects">
+        </li></a
+        ><a href="/projects"><li tabindex="2" id="nav-projects" class="nav-item" data-content="projects">
             Projects
-        </li
-        ><li tabindex="3" id="nav-work-hist" class="nav-item" data-content="work-hist">
+        </li></a
+        ><a href="/workHistory"><li tabindex="3" id="nav-work-hist" class="nav-item" data-content="work-hist">
             Work History
-        </li
+        </li></a
       ></ul>
       <img src="/imgs/SBtreelogoblk.png" alt="" id="nav-logo">
     </nav>
@@ -110,15 +110,21 @@
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="/vendor/scripts/handlebars.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
-    <script src="/scripts/navFunc.js"></script>
-    <script src="/scripts/animations.js"></script>
-    <script src="/scripts/projects.js"></script>
-    <script src="/scripts/projectView.js"></script>
-    <script> Project.fetchAll(); </script>
+    <script src="/vendor/scripts/marked.js"></script>
+    <script src="/vendor/scripts/page.js"></script>
+    <!-- <script src="/scripts/controllers/navFunc.js"></script> -->
+    <script src="/scripts/views/animations.js"></script>
+    <script src="/scripts/models/projects.js"></script>
+    <script src="/scripts/views/projectView.js"></script>
+    <script src="/scripts/controllers/aboutCtrl.js"></script>
+    <script src="/scripts/controllers/projectCtrl.js"></script>
+    <script src="/scripts/controllers/workHistCtrl.js"></script>
+    <script src="/scripts/controllers/routes.js"></script>
+    <!-- <script> Project.fetchAll(); </script> -->
   </body>
 </html>
