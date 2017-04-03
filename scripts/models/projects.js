@@ -26,7 +26,7 @@
     })
   };
 
-  Project.fetchAll = callback => {
+  Project.fetchAll = function() {
     // console.log($.get('/projects'));
     // $.get('/projects').then(results => {
     //   console.log(Project.loadAll(results));
