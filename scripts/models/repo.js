@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 $.ajax({
   url: 'https://api.github.com/user/repos?type=owner',
@@ -7,6 +7,6 @@ $.ajax({
     Authorization: `token ${githubToken}`
   }
 }).then(
-  // console.log(data[0].name);
-  data => data.forEach(repo => $('#projects').append(`<p>${repo.name}</p>`)), err => console.log(err)
+  console.log(data[0].name);
+  data => data.map(repo => $('#projects').append(`<p>${repo.name}</p>`)), err => console.log(err)
 );
